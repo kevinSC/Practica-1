@@ -7,9 +7,7 @@ int main(int argc, char const *argv[])
 	cin >> x;
 	for (int i = 1; i < x+1; i++){
 		if ( x%i == 0)	
-		{
 			cout << i << endl;
-		}
 	}
 
 	return 0;

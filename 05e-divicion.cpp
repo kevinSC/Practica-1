@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main(int argc, char const *argv[])
 {
@@ -8,7 +9,7 @@ int main(int argc, char const *argv[])
 	cin >> a;
 	cout << "ingrese otro numero:" << endl;
 	cin >> b;
-	c = int(a/b);
+	c = int(round(a/b));
 	cout << "la divicion entre estos numeros es: " << c << endl;
 	return 0;
 }		

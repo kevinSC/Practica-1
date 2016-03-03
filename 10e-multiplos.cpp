@@ -2,11 +2,13 @@
 using namespace std;
 int main(int argc, char const *argv[]){
 	int a = 0;
+	int b = 0;
 	cout << "por favor ingrese un numero:" << endl;
 	cin >> a;
-	while(a < 101){
-		cout << a << endl;
-		a += 33;
+	b = a;
+	while(b < 101){
+		cout << b << endl;
+		b += a;
 	}
 	return 0;
 }
