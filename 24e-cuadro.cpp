@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main()
-{
+int main(){
     int a=0;
     char x='*',espacio=' ';
     cout<< "ingrese el numero: ";

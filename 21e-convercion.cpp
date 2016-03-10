@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
 	char l;
 	int L;
 	cout << "por favor ingresa una letra:" << endl;

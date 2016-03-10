@@ -1,11 +1,8 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 int contador(int n);
-
-int main()
-{
+int main(){
     int a=0,b=0,c=0,d=0,e=0;
     cout << "ingrese un numero: ";
     cin>>a;

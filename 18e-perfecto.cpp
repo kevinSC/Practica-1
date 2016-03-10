@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
 	int b = 0;
 	float a = 0;
 	cout << "ingrese un numero entero positivo: ";

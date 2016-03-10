@@ -9,6 +9,5 @@ int main(int argc, char const *argv[])
 		if ( x%i == 0)	
 			cout << i << endl;
 	}
-
 	return 0;
 }
