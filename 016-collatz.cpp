@@ -11,11 +11,10 @@ int main(int argc, char const *argv[]){
 	for (int i = 0; i < k; i++){
 		if (Collatz(i)>collatz){
 			collatz = Collatz(i);
-			cout << collatz << " " << i << endl;
 			semilla = i;
 		}
 	}
-	cout << "la semilla mas pequeña que " << k << " es " << semilla << endl;
+	cout << "la semilla mas pequeña que " << k << " y genera una susecion mas larga es " << semilla << endl;
 	cout << semilla << ": ";
 	Pcollatz(semilla);
 	cout << endl;
